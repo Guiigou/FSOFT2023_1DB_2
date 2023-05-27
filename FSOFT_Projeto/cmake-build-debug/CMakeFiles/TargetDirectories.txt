@@ -1,0 +1,3 @@
+C:/Users/guilh/Desktop/FSOFT_Projeto/cmake-build-debug/CMakeFiles/FSOFT_Projeto.dir
+C:/Users/guilh/Desktop/FSOFT_Projeto/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/guilh/Desktop/FSOFT_Projeto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
