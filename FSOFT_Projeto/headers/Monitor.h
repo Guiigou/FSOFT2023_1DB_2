@@ -1,6 +1,7 @@
 #ifndef FSOFT_PROJETO_MONITOR_H
 #define FSOFT_PROJETO_MONITOR_H
 #include "Produto.h"
+#include <string>
 
 using namespace std;
 

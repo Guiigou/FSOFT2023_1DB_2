@@ -1,6 +1,7 @@
 #ifndef FSOFT_PROJETO_TECLADO_H
 #define FSOFT_PROJETO_TECLADO_H
 #include "Produto.h"
+#include <string>
 
 using namespace std;
 

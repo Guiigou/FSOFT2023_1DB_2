@@ -1,16 +1,17 @@
 #ifndef FSOFT_PROJETO_PLACAGRAFICA_H
 #define FSOFT_PROJETO_PLACAGRAFICA_H
 #include "Produto.h"
+#include <string>
 
 using namespace std;
 
 class PlacaGrafica : public Produto {
 private:
-    std::string tipoMemoria;
+    string tipoMemoria;
 
 public:
-    PlacaGrafica(std::string nome, int ID, int quantidade, double precoVenda, double precoCompra, std::string tipoMemoria);
-    std::string getTipoMemoria();
+    PlacaGrafica(std::string nome, int ID, int quantidade, double precoVenda, double precoCompra, string tipoMemoria);
+    string getTipoMemoria();
 };
 
 #endif //FSOFT_PROJETO_PLACAGRAFICA_H
