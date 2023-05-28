@@ -1,5 +1,6 @@
 #include "../headers/PlacaMae.h"
 #include <iostream>
+#include <locale.h>
 
 using namespace std;
 

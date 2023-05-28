@@ -1,5 +1,6 @@
 #include <iostream>
 #include "../headers/PlacaGrafica.h"
+#include <locale.h>
 
 using namespace std;
 
@@ -8,6 +9,6 @@ PlacaGrafica::PlacaGrafica(std::string nome, int ID, int quantidade, double prec
     this->tipoMemoria = tipoMemoria;
 }
 
-std::string PlacaGrafica::getTipoMemoria() {
+string PlacaGrafica::getTipoMemoria() {
     return tipoMemoria;
 }
