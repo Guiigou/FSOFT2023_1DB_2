@@ -1,0 +1,25 @@
+-----------------------
+
+Dados de Produtos
+
+Teclado       --> | Nome - Teclado | ID - T001 | Descricao - Teclado mecânico | Quantidade - 6 | Preço De Compra - 50.0 | Preço de Venda 100.0        |
+Monitor       --> | Nome - Monitor | ID - M001 | Descricao - Monitor 24 Polegadas | Quantidade - 5 | Preço De Compra - 200.0 | Preço de Venda 300.0   |
+Rato          --> | Nome - Rato | ID - T001 | Descricao - Teclado mecânico | Quantidade - 10 | Preço De Compra - 20.0 | Preço de Venda 40.0           |
+Placa Gráfica --> | Nome - Placa Gráfica | ID - PG001 | Descricao - RTX 3090 | Quantidade - 4 | Preço De Compra - 500.0 | Preço de Venda 800.0        |
+Placa Mãe     --> | Nome - Placa Mãe | ID - PM001 | Descricao - Placa Mae ROG | Quantidade - 5 | Preço De Compra - 150.0 | Preço de Venda 250.0       |
+
+----------------------
+
+Dados de Funcionários
+
+| Nome - Joao Silva | ID - E001 | Email - joao@example.com | Posição/Cargo - Gerente | Salario - 5000.0            |      
+| Nome - Maria Santos | ID - E002 | Email - maria@example.com | Posição/Cargo - Vendedor | Salario - 3000.0         |
+| Nome - Pedro Oliveira | ID - E003 | Email - pedro@example.com | Posição/Cargo - Assistente | Salario - 2000.0    |
+
+----------------------
+
+Dados de Fornecedor
+
+| Nome - Jorge Mendes | Contacto - 910562175 |
+
+----------------------
