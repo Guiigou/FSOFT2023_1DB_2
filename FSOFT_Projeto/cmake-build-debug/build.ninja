@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: FSOFT_Projeto
+# Project: PROJETO3mosqueteiros
 # Configurations: Debug
 # =============================================================================
 
@@ -39,106 +39,112 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/guilh/Desktop/FSOFT_Projeto/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target FSOFT_Projeto
+# Object build statements for EXECUTABLE target PROJETO3mosqueteiros
 
 
 #############################################
-# Order-only phony target for FSOFT_Projeto
+# Order-only phony target for PROJETO3mosqueteiros
 
-build cmake_object_order_depends_target_FSOFT_Projeto: phony || CMakeFiles/FSOFT_Projeto.dir
+build cmake_object_order_depends_target_PROJETO3mosqueteiros: phony || CMakeFiles/PROJETO3mosqueteiros.dir
 
-build CMakeFiles/FSOFT_Projeto.dir/main.cpp.obj: CXX_COMPILER__FSOFT_Projeto_Debug C$:/Users/guilh/Desktop/FSOFT_Projeto/main.cpp || cmake_object_order_depends_target_FSOFT_Projeto
-  DEP_FILE = CMakeFiles\FSOFT_Projeto.dir\main.cpp.obj.d
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Product.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/model/Product.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+  DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model\Product.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\FSOFT_Projeto.dir
-  OBJECT_FILE_DIR = CMakeFiles\FSOFT_Projeto.dir
+  OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
+  OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model
 
-build CMakeFiles/FSOFT_Projeto.dir/sources/Produto.cpp.obj: CXX_COMPILER__FSOFT_Projeto_Debug C$:/Users/guilh/Desktop/FSOFT_Projeto/sources/Produto.cpp || cmake_object_order_depends_target_FSOFT_Projeto
-  DEP_FILE = CMakeFiles\FSOFT_Projeto.dir\sources\Produto.cpp.obj.d
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Supplier.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/model/Supplier.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+  DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model\Supplier.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\FSOFT_Projeto.dir
-  OBJECT_FILE_DIR = CMakeFiles\FSOFT_Projeto.dir\sources
+  OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
+  OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model
 
-build CMakeFiles/FSOFT_Projeto.dir/sources/Fornecedor.cpp.obj: CXX_COMPILER__FSOFT_Projeto_Debug C$:/Users/guilh/Desktop/FSOFT_Projeto/sources/Fornecedor.cpp || cmake_object_order_depends_target_FSOFT_Projeto
-  DEP_FILE = CMakeFiles\FSOFT_Projeto.dir\sources\Fornecedor.cpp.obj.d
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Employee.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/model/Employee.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+  DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model\Employee.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\FSOFT_Projeto.dir
-  OBJECT_FILE_DIR = CMakeFiles\FSOFT_Projeto.dir\sources
+  OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
+  OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model
 
-build CMakeFiles/FSOFT_Projeto.dir/sources/Armazem.cpp.obj: CXX_COMPILER__FSOFT_Projeto_Debug C$:/Users/guilh/Desktop/FSOFT_Projeto/sources/Armazem.cpp || cmake_object_order_depends_target_FSOFT_Projeto
-  DEP_FILE = CMakeFiles\FSOFT_Projeto.dir\sources\Armazem.cpp.obj.d
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/WarehouseController.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/controller/WarehouseController.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+  DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\controller\WarehouseController.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\FSOFT_Projeto.dir
-  OBJECT_FILE_DIR = CMakeFiles\FSOFT_Projeto.dir\sources
+  OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
+  OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\controller
 
-build CMakeFiles/FSOFT_Projeto.dir/sources/Contabilidade.cpp.obj: CXX_COMPILER__FSOFT_Projeto_Debug C$:/Users/guilh/Desktop/FSOFT_Projeto/sources/Contabilidade.cpp || cmake_object_order_depends_target_FSOFT_Projeto
-  DEP_FILE = CMakeFiles\FSOFT_Projeto.dir\sources\Contabilidade.cpp.obj.d
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/view/Menu.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/view/Menu.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+  DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\view\Menu.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\FSOFT_Projeto.dir
-  OBJECT_FILE_DIR = CMakeFiles\FSOFT_Projeto.dir\sources
+  OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
+  OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\view
 
-build CMakeFiles/FSOFT_Projeto.dir/sources/Funcionario.cpp.obj: CXX_COMPILER__FSOFT_Projeto_Debug C$:/Users/guilh/Desktop/FSOFT_Projeto/sources/Funcionario.cpp || cmake_object_order_depends_target_FSOFT_Projeto
-  DEP_FILE = CMakeFiles\FSOFT_Projeto.dir\sources\Funcionario.cpp.obj.d
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/exception/InvalidOptionException.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/exception/InvalidOptionException.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+  DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\exception\InvalidOptionException.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\FSOFT_Projeto.dir
-  OBJECT_FILE_DIR = CMakeFiles\FSOFT_Projeto.dir\sources
+  OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
+  OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\exception
 
-build CMakeFiles/FSOFT_Projeto.dir/sources/Teclado.cpp.obj: CXX_COMPILER__FSOFT_Projeto_Debug C$:/Users/guilh/Desktop/FSOFT_Projeto/sources/Teclado.cpp || cmake_object_order_depends_target_FSOFT_Projeto
-  DEP_FILE = CMakeFiles\FSOFT_Projeto.dir\sources\Teclado.cpp.obj.d
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/main.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/main.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+  DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\FSOFT_Projeto.dir
-  OBJECT_FILE_DIR = CMakeFiles\FSOFT_Projeto.dir\sources
+  OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
+  OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources
 
-build CMakeFiles/FSOFT_Projeto.dir/sources/Monitor.cpp.obj: CXX_COMPILER__FSOFT_Projeto_Debug C$:/Users/guilh/Desktop/FSOFT_Projeto/sources/Monitor.cpp || cmake_object_order_depends_target_FSOFT_Projeto
-  DEP_FILE = CMakeFiles\FSOFT_Projeto.dir\sources\Monitor.cpp.obj.d
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/EmployeeController.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/controller/EmployeeController.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+  DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\controller\EmployeeController.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\FSOFT_Projeto.dir
-  OBJECT_FILE_DIR = CMakeFiles\FSOFT_Projeto.dir\sources
+  OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
+  OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\controller
 
-build CMakeFiles/FSOFT_Projeto.dir/sources/Rato.cpp.obj: CXX_COMPILER__FSOFT_Projeto_Debug C$:/Users/guilh/Desktop/FSOFT_Projeto/sources/Rato.cpp || cmake_object_order_depends_target_FSOFT_Projeto
-  DEP_FILE = CMakeFiles\FSOFT_Projeto.dir\sources\Rato.cpp.obj.d
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/AccountingController.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/controller/AccountingController.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+  DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\controller\AccountingController.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\FSOFT_Projeto.dir
-  OBJECT_FILE_DIR = CMakeFiles\FSOFT_Projeto.dir\sources
+  OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
+  OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\controller
 
-build CMakeFiles/FSOFT_Projeto.dir/sources/PlacaMae.cpp.obj: CXX_COMPILER__FSOFT_Projeto_Debug C$:/Users/guilh/Desktop/FSOFT_Projeto/sources/PlacaMae.cpp || cmake_object_order_depends_target_FSOFT_Projeto
-  DEP_FILE = CMakeFiles\FSOFT_Projeto.dir\sources\PlacaMae.cpp.obj.d
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Transaction.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/model/Transaction.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+  DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model\Transaction.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\FSOFT_Projeto.dir
-  OBJECT_FILE_DIR = CMakeFiles\FSOFT_Projeto.dir\sources
+  OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
+  OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model
 
-build CMakeFiles/FSOFT_Projeto.dir/sources/PlacaGrafica.cpp.obj: CXX_COMPILER__FSOFT_Projeto_Debug C$:/Users/guilh/Desktop/FSOFT_Projeto/sources/PlacaGrafica.cpp || cmake_object_order_depends_target_FSOFT_Projeto
-  DEP_FILE = CMakeFiles\FSOFT_Projeto.dir\sources\PlacaGrafica.cpp.obj.d
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/PurchaseRecord.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/model/PurchaseRecord.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+  DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model\PurchaseRecord.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\FSOFT_Projeto.dir
-  OBJECT_FILE_DIR = CMakeFiles\FSOFT_Projeto.dir\sources
+  OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
+  OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model
+
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/AccountingRecord.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/model/AccountingRecord.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+  DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model\AccountingRecord.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
+  OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target FSOFT_Projeto
+# Link build statements for EXECUTABLE target PROJETO3mosqueteiros
 
 
 #############################################
-# Link the executable FSOFT_Projeto.exe
+# Link the executable PROJETO3mosqueteiros.exe
 
-build FSOFT_Projeto.exe: CXX_EXECUTABLE_LINKER__FSOFT_Projeto_Debug CMakeFiles/FSOFT_Projeto.dir/main.cpp.obj CMakeFiles/FSOFT_Projeto.dir/sources/Produto.cpp.obj CMakeFiles/FSOFT_Projeto.dir/sources/Fornecedor.cpp.obj CMakeFiles/FSOFT_Projeto.dir/sources/Armazem.cpp.obj CMakeFiles/FSOFT_Projeto.dir/sources/Contabilidade.cpp.obj CMakeFiles/FSOFT_Projeto.dir/sources/Funcionario.cpp.obj CMakeFiles/FSOFT_Projeto.dir/sources/Teclado.cpp.obj CMakeFiles/FSOFT_Projeto.dir/sources/Monitor.cpp.obj CMakeFiles/FSOFT_Projeto.dir/sources/Rato.cpp.obj CMakeFiles/FSOFT_Projeto.dir/sources/PlacaMae.cpp.obj CMakeFiles/FSOFT_Projeto.dir/sources/PlacaGrafica.cpp.obj
+build PROJETO3mosqueteiros.exe: CXX_EXECUTABLE_LINKER__PROJETO3mosqueteiros_Debug CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Product.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Supplier.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Employee.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/WarehouseController.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/view/Menu.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/exception/InvalidOptionException.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/main.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/EmployeeController.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/AccountingController.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Transaction.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/PurchaseRecord.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/AccountingRecord.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\FSOFT_Projeto.dir
+  OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = FSOFT_Projeto.exe
-  TARGET_IMPLIB = libFSOFT_Projeto.dll.a
-  TARGET_PDB = FSOFT_Projeto.exe.dbg
+  TARGET_FILE = PROJETO3mosqueteiros.exe
+  TARGET_IMPLIB = libPROJETO3mosqueteiros.dll.a
+  TARGET_PDB = PROJETO3mosqueteiros.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\guilh\Desktop\FSOFT_Projeto\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\guilh\Desktop\PROJETO3mosqueteiros2\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -149,7 +155,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\guilh\Desktop\FSOFT_Projeto\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\guilh\Desktop\FSOFT_Projeto -BC:\Users\guilh\Desktop\FSOFT_Projeto\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\guilh\Desktop\PROJETO3mosqueteiros2\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\guilh\Desktop\PROJETO3mosqueteiros2 -BC:\Users\guilh\Desktop\PROJETO3mosqueteiros2\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -159,7 +165,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build FSOFT_Projeto: phony FSOFT_Projeto.exe
+build PROJETO3mosqueteiros: phony PROJETO3mosqueteiros.exe
 
 # =============================================================================
 # Folder targets.
@@ -167,9 +173,9 @@ build FSOFT_Projeto: phony FSOFT_Projeto.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/guilh/Desktop/FSOFT_Projeto/cmake-build-debug
+# Folder: C:/Users/guilh/Desktop/PROJETO3mosqueteiros2/cmake-build-debug
 
-build all: phony FSOFT_Projeto.exe
+build all: phony PROJETO3mosqueteiros.exe
 
 # =============================================================================
 # Built-in targets
