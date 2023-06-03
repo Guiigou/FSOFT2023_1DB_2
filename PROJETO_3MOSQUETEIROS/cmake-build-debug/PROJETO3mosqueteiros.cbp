@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PROJETO3mosqueteiros"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PROJETO3mosqueteiros">
+				<Option output="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/PROJETO3mosqueteiros.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 PROJETO3mosqueteiros"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PROJETO3mosqueteiros/fast">
+				<Option output="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/PROJETO3mosqueteiros.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 PROJETO3mosqueteiros/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/headers/model/AccountingRecord.h">
+			<Option target="PROJETO3mosqueteiros"/>
+		</Unit>
+		<Unit filename="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/headers/model/Employee.h">
+			<Option target="PROJETO3mosqueteiros"/>
+		</Unit>
+		<Unit filename="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/headers/model/Product.h">
+			<Option target="PROJETO3mosqueteiros"/>
+		</Unit>
+		<Unit filename="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/headers/model/PurchaseRecord.h">
+			<Option target="PROJETO3mosqueteiros"/>
+		</Unit>
+		<Unit filename="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/headers/model/Supplier.h">
+			<Option target="PROJETO3mosqueteiros"/>
+		</Unit>
+		<Unit filename="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/headers/model/Transaction.h">
+			<Option target="PROJETO3mosqueteiros"/>
+		</Unit>
+		<Unit filename="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/sources/main.cpp">
+			<Option target="PROJETO3mosqueteiros"/>
+		</Unit>
+		<Unit filename="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/sources/model/AccountingRecord.cpp">
+			<Option target="PROJETO3mosqueteiros"/>
+		</Unit>
+		<Unit filename="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/sources/model/Employee.cpp">
+			<Option target="PROJETO3mosqueteiros"/>
+		</Unit>
+		<Unit filename="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/sources/model/Product.cpp">
+			<Option target="PROJETO3mosqueteiros"/>
+		</Unit>
+		<Unit filename="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/sources/model/PurchaseRecord.cpp">
+			<Option target="PROJETO3mosqueteiros"/>
+		</Unit>
+		<Unit filename="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/sources/model/Supplier.cpp">
+			<Option target="PROJETO3mosqueteiros"/>
+		</Unit>
+		<Unit filename="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/sources/model/Transaction.cpp">
+			<Option target="PROJETO3mosqueteiros"/>
+		</Unit>
+		<Unit filename="C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

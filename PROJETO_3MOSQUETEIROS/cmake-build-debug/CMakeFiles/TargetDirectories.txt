@@ -1,0 +1,3 @@
+C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/CMakeFiles/PROJETO3mosqueteiros.dir
+C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/FSOFT_Projeto/FSOFT_Projeto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
