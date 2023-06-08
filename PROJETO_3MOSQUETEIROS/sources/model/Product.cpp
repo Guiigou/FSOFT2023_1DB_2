@@ -1,7 +1,5 @@
 #include "../../headers/model/Product.h"
 
-using namespace std;
-
 Product::Product(string name, string ID, string description, int quantity, double purchasePrice, double sellingPrice) {
     this->name = name;
     this->ID = ID;

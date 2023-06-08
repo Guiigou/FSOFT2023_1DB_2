@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/guilh/Desktop/PROJETO_3MOSQUETEIROS/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target PROJETO3mosqueteiros
 
@@ -49,77 +49,101 @@ cmake_ninja_workdir = C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/cmake-build-
 
 build cmake_object_order_depends_target_PROJETO3mosqueteiros: phony || CMakeFiles/PROJETO3mosqueteiros.dir
 
-build CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Product.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/model/Product.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Product.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO_3MOSQUETEIROS/sources/model/Product.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
   DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model\Product.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
   OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model
 
-build CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Supplier.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/model/Supplier.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Supplier.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO_3MOSQUETEIROS/sources/model/Supplier.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
   DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model\Supplier.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
   OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model
 
-build CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Employee.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/model/Employee.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Employee.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO_3MOSQUETEIROS/sources/model/Employee.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
   DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model\Employee.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
   OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model
 
-build CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/WarehouseController.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/controller/WarehouseController.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/WarehouseController.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO_3MOSQUETEIROS/sources/controller/WarehouseController.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
   DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\controller\WarehouseController.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
   OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\controller
 
-build CMakeFiles/PROJETO3mosqueteiros.dir/sources/view/Menu.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/view/Menu.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/view/Menu.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO_3MOSQUETEIROS/sources/view/Menu.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
   DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\view\Menu.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
   OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\view
 
-build CMakeFiles/PROJETO3mosqueteiros.dir/sources/exception/InvalidOptionException.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/exception/InvalidOptionException.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/exception/InvalidOptionException.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO_3MOSQUETEIROS/sources/exception/InvalidOptionException.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
   DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\exception\InvalidOptionException.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
   OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\exception
 
-build CMakeFiles/PROJETO3mosqueteiros.dir/sources/main.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/main.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/main.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO_3MOSQUETEIROS/sources/main.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
   DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
   OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources
 
-build CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/EmployeeController.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/controller/EmployeeController.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/EmployeeController.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO_3MOSQUETEIROS/sources/controller/EmployeeController.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
   DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\controller\EmployeeController.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
   OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\controller
 
-build CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/AccountingController.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/controller/AccountingController.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/AccountingController.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO_3MOSQUETEIROS/sources/controller/AccountingController.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
   DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\controller\AccountingController.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
   OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\controller
 
-build CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Transaction.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/model/Transaction.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
-  DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model\Transaction.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
-  OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model
-
-build CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/PurchaseRecord.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/model/PurchaseRecord.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/PurchaseRecord.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO_3MOSQUETEIROS/sources/model/PurchaseRecord.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
   DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model\PurchaseRecord.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
   OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model
 
-build CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/AccountingRecord.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO3mosqueteiros2/sources/model/AccountingRecord.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/AccountingRecord.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO_3MOSQUETEIROS/sources/model/AccountingRecord.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
   DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model\AccountingRecord.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
   OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\model
+
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/view/WarehouseView.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO_3MOSQUETEIROS/sources/view/WarehouseView.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+  DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\view\WarehouseView.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
+  OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\view
+
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/view/EmployeeView.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO_3MOSQUETEIROS/sources/view/EmployeeView.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+  DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\view\EmployeeView.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
+  OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\view
+
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/view/AccountingView.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO_3MOSQUETEIROS/sources/view/AccountingView.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+  DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\view\AccountingView.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
+  OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\view
+
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/SupplierController.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO_3MOSQUETEIROS/sources/controller/SupplierController.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+  DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\controller\SupplierController.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
+  OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\controller
+
+build CMakeFiles/PROJETO3mosqueteiros.dir/sources/view/SupplierView.cpp.obj: CXX_COMPILER__PROJETO3mosqueteiros_Debug C$:/Users/guilh/Desktop/PROJETO_3MOSQUETEIROS/sources/view/SupplierView.cpp || cmake_object_order_depends_target_PROJETO3mosqueteiros
+  DEP_FILE = CMakeFiles\PROJETO3mosqueteiros.dir\sources\view\SupplierView.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
+  OBJECT_FILE_DIR = CMakeFiles\PROJETO3mosqueteiros.dir\sources\view
 
 
 # =============================================================================
@@ -129,7 +153,7 @@ build CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/AccountingRecord.cpp.obj
 #############################################
 # Link the executable PROJETO3mosqueteiros.exe
 
-build PROJETO3mosqueteiros.exe: CXX_EXECUTABLE_LINKER__PROJETO3mosqueteiros_Debug CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Product.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Supplier.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Employee.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/WarehouseController.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/view/Menu.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/exception/InvalidOptionException.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/main.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/EmployeeController.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/AccountingController.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Transaction.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/PurchaseRecord.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/AccountingRecord.cpp.obj
+build PROJETO3mosqueteiros.exe: CXX_EXECUTABLE_LINKER__PROJETO3mosqueteiros_Debug CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Product.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Supplier.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/Employee.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/WarehouseController.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/view/Menu.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/exception/InvalidOptionException.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/main.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/EmployeeController.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/AccountingController.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/PurchaseRecord.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/model/AccountingRecord.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/view/WarehouseView.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/view/EmployeeView.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/view/AccountingView.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/controller/SupplierController.cpp.obj CMakeFiles/PROJETO3mosqueteiros.dir/sources/view/SupplierView.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\PROJETO3mosqueteiros.dir
@@ -144,7 +168,7 @@ build PROJETO3mosqueteiros.exe: CXX_EXECUTABLE_LINKER__PROJETO3mosqueteiros_Debu
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\guilh\Desktop\PROJETO3mosqueteiros2\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\guilh\Desktop\PROJETO_3MOSQUETEIROS\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -155,7 +179,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\guilh\Desktop\PROJETO3mosqueteiros2\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\guilh\Desktop\PROJETO3mosqueteiros2 -BC:\Users\guilh\Desktop\PROJETO3mosqueteiros2\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\guilh\Desktop\PROJETO_3MOSQUETEIROS\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\guilh\Desktop\PROJETO_3MOSQUETEIROS -BC:\Users\guilh\Desktop\PROJETO_3MOSQUETEIROS\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -173,7 +197,7 @@ build PROJETO3mosqueteiros: phony PROJETO3mosqueteiros.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/guilh/Desktop/PROJETO3mosqueteiros2/cmake-build-debug
+# Folder: C:/Users/guilh/Desktop/PROJETO_3MOSQUETEIROS/cmake-build-debug
 
 build all: phony PROJETO3mosqueteiros.exe
 

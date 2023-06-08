@@ -1,8 +1,6 @@
 #include "../../headers/model/AccountingRecord.h"
 
-using namespace std;
-
-AccountingRecord::AccountingRecord(const string& productID, int quantity)
+AccountingRecord::AccountingRecord(const std::string& productID, int quantity)
         : productID(productID), quantity(quantity) {}
 
 string AccountingRecord::getProductID() const {

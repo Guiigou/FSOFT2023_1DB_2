@@ -3,7 +3,6 @@
 #define PROJETO3MOSQUETEIROS_EMPLOYEE_H
 
 #include <string>
-
 using namespace std;
 
 class Employee {

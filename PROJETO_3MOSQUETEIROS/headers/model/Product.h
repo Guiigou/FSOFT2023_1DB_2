@@ -3,7 +3,6 @@
 #define PROJETO3MOSQUETEIROS_PRODUCT_H
 
 #include <string>
-
 using namespace std;
 
 class Product {

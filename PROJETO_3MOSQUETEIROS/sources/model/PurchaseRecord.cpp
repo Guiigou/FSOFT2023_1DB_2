@@ -1,7 +1,5 @@
 #include "../../headers/model/PurchaseRecord.h"
 
-using namespace std;
-
 PurchaseRecord::PurchaseRecord(const string& productID, int quantity, double purchasePrice)
         : productID(productID), quantity(quantity), purchasePrice(purchasePrice) {}
 

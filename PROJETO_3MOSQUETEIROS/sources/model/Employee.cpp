@@ -1,7 +1,5 @@
 #include "../../headers/model/Employee.h"
 
-using namespace std;
-
 Employee::Employee(string name, string ID, string email, string position, double salary) {
     this->name = name;
     this->ID = ID;

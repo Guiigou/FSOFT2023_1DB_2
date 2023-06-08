@@ -3,7 +3,6 @@
 #define PROJETO3MOSQUETEIROS_SUPPLIER_H
 
 #include <string>
-
 using namespace std;
 
 

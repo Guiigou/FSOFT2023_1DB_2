@@ -1,7 +1,5 @@
 #include "../../headers/model/Supplier.h"
 
-using namespace std;
-
 Supplier::Supplier() {}
 
 Supplier::Supplier(const string& name, const string& contact)

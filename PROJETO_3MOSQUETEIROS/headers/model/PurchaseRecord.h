@@ -3,7 +3,6 @@
 #define PROJETO3MOSQUETEIROS_PURCHASERECORD_H
 
 #include <string>
-
 using namespace std;
 
 class PurchaseRecord {

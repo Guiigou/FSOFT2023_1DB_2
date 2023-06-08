@@ -1,8 +1,8 @@
+
 #ifndef PROJETO3MOSQUETEIROS_ACCOUNTINGRECORD_H
 #define PROJETO3MOSQUETEIROS_ACCOUNTINGRECORD_H
 
 #include <string>
-
 using namespace std;
 
 class AccountingRecord {
