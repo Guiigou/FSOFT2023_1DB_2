@@ -3,11 +3,12 @@
 
 #include "../model/AccountingRecord.h"
 #include "../model/PurchaseRecord.h"
-#include <vector>
+#include <list>
+
 
 class AccountingController {
 private:
-    vector<PurchaseRecord> purchaseRecords;
+    list<PurchaseRecord> purchaseRecords;
 
 public:
     void addPurchaseRecord(const PurchaseRecord& purchaseRecord);

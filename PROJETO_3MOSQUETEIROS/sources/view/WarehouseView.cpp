@@ -59,7 +59,7 @@ void WarehouseView::showWarehouseMenu(WarehouseController& warehouseController) 
                 std::string productID;
                 int quantity;
 
-                cout << "==== Retirar Produtos do Armazém ====" << std::endl;
+                cout << "==== Retirar Produtos do Armazem ====" << std::endl;
                 cout << "Digite o ID do produto que deseja retirar: ";
                 getline(std::cin, productID);
                 cout << "Digite a quantidade a ser retirada: ";

@@ -4,14 +4,15 @@
 
 
 
-#include <vector>
+
 #include <string>
+#include <list>
 #include "../model/Product.h"
 #include "../model/Supplier.h"
 
 class WarehouseController {
 private:
-    std::vector<Product> products;
+    list<Product> products;
     Supplier supplier;
 
 public:

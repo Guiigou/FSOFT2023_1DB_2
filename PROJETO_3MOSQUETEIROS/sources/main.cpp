@@ -8,12 +8,9 @@
 #include "../headers/view/EmployeeView.h"
 #include "../headers/view/AccountingView.h"
 #include "../headers/view/SupplierView.h"
+#include "../headers/exception/InvalidOptionException.h"
 
 int main() {
-    WarehouseView warehouseView;
-    EmployeeView employeeView;
-    AccountingView accountingView;
-    SupplierView supplierView;
 
     WarehouseController warehouseController;
     EmployeeController employeeController;
@@ -27,6 +24,7 @@ int main() {
         Menu::showMainMenu();
         cin >> option;
         cin.ignore();
+
 
         switch (option) {
             case 1: {
@@ -43,16 +41,19 @@ int main() {
             }
             case 4: {
                 SupplierView::showSupplierMenu(supplierController);
+                break;
             }
             case 0: {
                 std::cout << "Encerrando o programa..." << std::endl;
                 break;
             }
             default: {
-                std::cout << "Opção inválida. Tente novamente." << std::endl;
+                throw InvalidOptionException("Opção inválida. Tente novamente.");
                 break;
             }
         }
+
+
 
         cout << std::endl;
     } while (option != 0);

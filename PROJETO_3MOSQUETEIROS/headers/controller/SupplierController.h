@@ -5,12 +5,12 @@
 #ifndef PROJETO3MOSQUETEIROS_SUPPLIERCONTROLLER_H
 #define PROJETO3MOSQUETEIROS_SUPPLIERCONTROLLER_H
 
-#include <vector>
+#include <list>
 #include "../model/Supplier.h"
 
 class SupplierController {
 private:
-    vector<Supplier> suppliers;
+    list<Supplier> suppliers;
     Supplier supplier;
 
 public:

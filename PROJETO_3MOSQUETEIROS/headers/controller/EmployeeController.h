@@ -2,12 +2,13 @@
 #ifndef PROJETO3MOSQUETEIROS_EMPLOYEECONTROLLER_H
 #define PROJETO3MOSQUETEIROS_EMPLOYEECONTROLLER_H
 
-#include <vector>
+
+#include <list>
 #include "../model/Employee.h"
 
 class EmployeeController {
 private:
-    vector<Employee> employees;
+    list<Employee> employees;
 
 public:
     EmployeeController();

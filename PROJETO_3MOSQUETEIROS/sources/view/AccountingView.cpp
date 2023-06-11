@@ -13,7 +13,7 @@ void AccountingView::showAccountingMenu(AccountingController& accountingControll
         cout << "3. Visualizar registro de compras" << endl;
         cout << "0. Voltar" << endl;
         cout << "===============================" << endl;
-        cout << "Escolha uma opção: ";
+        cout << "Escolha uma opcao: ";
         cin >> option;
         cin.ignore();
 
@@ -28,7 +28,7 @@ void AccountingView::showAccountingMenu(AccountingController& accountingControll
                 getline(std::cin, productID);
                 cout << "Digite a quantidade comprada: ";
                 cin >> quantity;
-                cout << "Digite o preço de compra: ";
+                cout << "Digite o preco de compra: ";
                 cin >> purchasePrice;
                 cin.ignore();
 
@@ -43,7 +43,7 @@ void AccountingView::showAccountingMenu(AccountingController& accountingControll
                 int quantity;
                 double purchasePrice;
 
-                cout << "==== Registrar Retirada de Produtos do Armazém ====" << endl;
+                cout << "==== Registrar Retirada de Produtos do Armazem ====" << endl;
                 cout << "Digite o ID do produto retirado: ";
                 getline(std::cin, productID);
                 cout << "Digite a quantidade retirada: ";
@@ -67,7 +67,7 @@ void AccountingView::showAccountingMenu(AccountingController& accountingControll
                 break;
             }
             default: {
-                cout << "Opção inválida. Tente novamente." << endl;
+                cout << "Opção invalida. Tente novamente." << endl;
                 break;
             }
         }

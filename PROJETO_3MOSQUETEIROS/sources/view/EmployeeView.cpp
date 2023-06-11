@@ -8,13 +8,13 @@ void EmployeeView::showEmployeeMenu(EmployeeController& employeeController) {
     int option;
 
     do {
-        cout << "==== Menu de Funcionários ====" << endl;
-        cout << "1. Contratar funcionário" << endl;
-        cout << "2. Remover funcionários" << endl;
-        cout << "3. Listar funcionário" << endl;
+        cout << "==== Menu de Funcionarios ====" << endl;
+        cout << "1. Contratar funcionario" << endl;
+        cout << "2. Remover funcionarios" << endl;
+        cout << "3. Listar funcionario" << endl;
         cout << "0. Voltar" << std::endl;
         cout << "==============================" << endl;
-        cout << "Escolha uma opção: ";
+        cout << "Escolha uma opcao: ";
         cin >> option;
         cin.ignore();
 
@@ -26,8 +26,8 @@ void EmployeeView::showEmployeeMenu(EmployeeController& employeeController) {
                 string employeePosition;
                 double employeeSalary;
 
-                cout << "==== Contratar Funcionário ====" << endl;
-                cout << "Digite as informações do funcionário:" << endl;
+                cout << "==== Contratar Funcionario ====" << endl;
+                cout << "Digite as informações do funcionario:" << endl;
                 cout << "Nome: ";
                 getline(cin, employeeName);
                 cout << "ID: ";
@@ -36,26 +36,26 @@ void EmployeeView::showEmployeeMenu(EmployeeController& employeeController) {
                 getline(cin, employeeEmail);
                 cout << "Cargo: ";
                 getline(cin, employeePosition);
-                cout << "Salário: ";
+                cout << "Salario: ";
                 cin >> employeeSalary;
                 cin.ignore();
 
                 Employee newEmployee(employeeName, employeeID, employeeEmail, employeePosition, employeeSalary);
                 employeeController.addEmployee(newEmployee);
 
-                cout << "Funcionário contratado com sucesso!" << endl;
+                cout << "Funcionario contratado com sucesso!" << endl;
                 break;
             }
             case 2: {
                 string employeeID;
 
-                cout << "==== Remover Funcionário ====" << endl;
-                cout << "Digite o ID do funcionário que deseja remover: ";
+                cout << "==== Remover Funcionario ====" << endl;
+                cout << "Digite o ID do funcionario que deseja remover: ";
                 getline(std::cin, employeeID);
 
                 employeeController.removeEmployee(employeeID);
 
-                cout << "Funcionário removido com sucesso!" << endl;
+                cout << "Funcionario removido com sucesso!" << endl;
                 break;
             }
             case 3: {
@@ -67,7 +67,7 @@ void EmployeeView::showEmployeeMenu(EmployeeController& employeeController) {
                 break;
             }
             default: {
-                cout << "Opção inválida. Tente novamente." << endl;
+                cout << "Opcao invalida. Tente novamente." << endl;
                 break;
             }
         }
