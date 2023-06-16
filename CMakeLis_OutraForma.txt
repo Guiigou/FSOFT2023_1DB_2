@@ -1,0 +1,94 @@
+cmake_minimum_required(VERSION 3.23)
+project(PROJETO3mosqueteiros)
+
+set(CMAKE_CXX_STANDARD 14)
+
+
+set(PROJECT_HEADERS_DIR ${PROJECT_SOURCE_DIR}/headers)
+set(PROJECT_SOURCES_DIR ${PROJECT_SOURCE_DIR}/sources)
+
+set(PROJECT_HEADERS_CONTROLLER_DIR ${PROJECT_HEADERS_DIR}/controller)
+set(PROJECT_SOURCES_CONTROLLER_DIR ${PROJECT_SOURCES_DIR}/controller)
+
+include_directories(
+        ${PROJECT_HEADERS_CONTROLLER_DIR}
+        ${PROJECT_SOURCES_CONTROLLER_DIR})
+
+set(CONTROLLER_SOURCE_FILES
+        ${PROJECT_HEADERS_CONTROLLER_DIR}/EmployeeController.h
+        ${PROJECT_SOURCES_CONTROLLER_DIR}/EmployeeController.cpp
+        ${PROJECT_HEADERS_CONTROLLER_DIR}/WarehouseController.h
+        ${PROJECT_SOURCES_CONTROLLER_DIR}/WarehouseController.cpp
+        ${PROJECT_HEADERS_CONTROLLER_DIR}/AccountingController.h
+        ${PROJECT_SOURCES_CONTROLLER_DIR}/AccountingController.cpp
+        ${PROJECT_HEADERS_CONTROLLER_DIR}/SupplierController.h
+        ${PROJECT_SOURCES_CONTROLLER_DIR}/SupplierController.cpp
+        )
+
+set(PROJECT_HEADERS_EXCEPTION_DIR
+        ${PROJECT_HEADERS_DIR}/exception)
+set(PROJECT_SOURCES_EXCEPTION_DIR
+        ${PROJECT_SOURCES_DIR}/exception)
+
+include_directories(
+        ${PROJECT_HEADERS_EXCEPTION_DIR}
+        ${PROJECT_SOURCES_EXCEPTION_DIR})
+
+set(EXCEPTION_SOURCE_FILES
+        ${PROJECT_HEADERS_EXCEPTION_DIR}/IncorrectDataException.h
+        ${PROJECT_SOURCES_EXCEPTION_DIR}/IncorrectDataException.cpp
+        ${PROJECT_HEADERS_EXCEPTION_DIR}/InvalidOptionException.h
+        ${PROJECT_SOURCES_EXCEPTION_DIR}/InvalidOptionException.cpp)
+
+set(PROJECT_HEADERS_MODEL_DIR
+        ${PROJECT_HEADERS_DIR}/model)
+set(PROJECT_SOURCES_MODEL_DIR
+        ${PROJECT_SOURCES_DIR}/model)
+
+include_directories(
+        ${PROJECT_HEADERS_MODEL_DIR}
+        ${PROJECT_SOURCES_MODEL_DIR})
+
+
+set(MODEL_SOURCE_FILES
+        ${PROJECT_HEADERS_MODEL_DIR}/Employee.h
+        ${PROJECT_SOURCES_MODEL_DIR}/Employee.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/Product.h
+        ${PROJECT_SOURCES_MODEL_DIR}/Product.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/PurchaseRecord.h
+        ${PROJECT_SOURCES_MODEL_DIR}/PurchaseRecord.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/Supplier.h
+        ${PROJECT_SOURCES_MODEL_DIR}/Supplier.cpp
+        )
+
+set(PROJECT_HEADERS_VIEW_DIR
+        ${PROJECT_HEADERS_DIR}/view)
+set(PROJECT_SOURCES_VIEW_DIR
+        ${PROJECT_SOURCES_DIR}/view)
+
+include_directories(
+        ${PROJECT_HEADERS_VIEW_DIR}
+        ${PROJECT_SOURCES_VIEW_DIR})
+
+set(VIEW_SOURCE_FILES
+        ${PROJECT_HEADERS_VIEW_DIR}/AccountingView.h
+        ${PROJECT_SOURCES_VIEW_DIR}/AccountingView.cpp
+        ${PROJECT_HEADERS_VIEW_DIR}/EmployeeView.h
+        ${PROJECT_SOURCES_VIEW_DIR}/EmployeeView.cpp
+        ${PROJECT_HEADERS_VIEW_DIR}/Menu.h
+        ${PROJECT_SOURCES_VIEW_DIR}/Menu.cpp
+        ${PROJECT_HEADERS_VIEW_DIR}/WarehouseView.h
+        ${PROJECT_SOURCES_VIEW_DIR}/WarehouseView.cpp
+        ${PROJECT_HEADERS_VIEW_DIR}/SupplierView.h
+        ${PROJECT_SOURCES_VIEW_DIR}/SupplierView.cpp)
+
+
+
+
+add_executable(
+        PROJETO3mosqueteiros
+        main.cpp
+        ${VIEW_SOURCE_FILES}
+        ${MODEL_SOURCE_FILES}
+        ${EXCEPTION_SOURCE_FILES}
+        ${CONTROLLER_SOURCE_FILES})
